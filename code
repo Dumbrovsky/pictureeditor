@@ -1,5 +1,5 @@
 from PIL import Image
-obrazek = Image.open("motorka.jpg")
+obrazek = Image.open("/motorka.jpg")
 sirka, vyska = obrazek.size
 x = 0
 while x < sirka:
